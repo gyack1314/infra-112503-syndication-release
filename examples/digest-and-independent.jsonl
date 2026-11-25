@@ -1,0 +1,9 @@
+{"at":0,"kind":"release","record":{"release":"X","source":"s2","digest":"x1","embargo":3,"members":[{"channel":"A","region":"N","window":[3,8],"group":"g"},{"channel":"B","region":"S","window":[6,8],"group":"g"},{"channel":"C","region":"E","window":[3,10]}]}}
+{"at":1,"kind":"ready","record":{"release":"X","channel":"A","digest":"x1","window":[3,5],"retract_until":4}}
+{"at":1,"kind":"ready","record":{"release":"X","channel":"B","digest":"x1","window":[6,8],"retract_until":7}}
+{"at":1,"kind":"ready","record":{"release":"X","channel":"C","digest":"x1","window":[3,10],"retract_until":5}}
+{"at":2,"kind":"confirm","record":{"release":"X","rev":1}}
+{"at":3,"kind":"receipt","record":{"release":"X","channel":"C","rev":1,"state":"public","published_at":3}}
+{"at":4,"kind":"release","record":{"release":"X","source":"s2","digest":"x2","embargo":6,"members":[{"channel":"A","region":"N","window":[6,8],"group":"g"},{"channel":"B","region":"S","window":[6,9],"group":"g"}]}}
+{"at":5,"kind":"ready","record":{"release":"X","channel":"B","digest":"x1","window":[6,9],"retract_until":7}}
+{"at":6,"kind":"inspect","record":{"release":"X"}}
